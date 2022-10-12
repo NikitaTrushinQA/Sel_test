@@ -1,7 +1,7 @@
 
 import time
 from selenium.webdriver.common.by import By
-def test_check_button(browser):
+def test_check_button_is_enabled(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(5)
